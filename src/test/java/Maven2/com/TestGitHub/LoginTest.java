@@ -26,7 +26,8 @@ public class LoginTest {
 		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("9028549561");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("9604335555");
-	//	driver.findElement(By.xpath(".//*[@id='u_0_2']")).click();
+		driver.findElement(By.xpath(".//*[@id='u_0_2']")).click();
+		System.out.println("Ganpati bappa moraya");
 			}
 
 	@AfterTest
